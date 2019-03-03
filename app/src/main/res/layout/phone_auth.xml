@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/activity_main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/back3"
+	android:orientation="vertical"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.kevin.kipande.MainActivity">
+
+	<EditText
+		android:id="@+id/phone"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/getcode"
+		android:layout_alignLeft="@+id/getcode"
+		android:layout_alignStart="@+id/getcode"
+		android:layout_marginBottom="61dp"
+		android:layout_marginLeft="12dp"
+		android:layout_marginStart="12dp"
+		android:background="@drawable/phone"
+		android:drawableLeft="@drawable/ic_call_black_24dp"
+		android:drawablePadding="12dp"
+		android:hint="Enter Your Phone Number"
+		android:textColorHint="#000"
+		android:inputType="phone"
+		android:maxLength="10"
+		android:padding="15dp" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="15dp"
+		android:id="@+id/code"
+		android:hint="Verification Code"
+		android:visibility="gone"/>
+
+	<ImageView
+		android:layout_width="240dp"
+		android:layout_height="120dp"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginEnd="44dp"
+		android:layout_marginRight="44dp"
+		android:layout_marginTop="54dp"
+		android:padding="16dp"
+		android:src="@drawable/ic_directions_bike_black_24dp" />
+
+	<Button
+		android:id="@+id/getcode"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_marginBottom="52dp"
+		android:layout_marginLeft="22dp"
+		android:layout_marginStart="22dp"
+		android:background="@drawable/verify"
+		android:onClick="GetCode"
+		android:padding="15dp"
+		android:drawablePadding="12dp"
+		android:textSize="18sp"
+
+		android:textColor="#000"
+		android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+		android:text="Verify" />
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/verify"
+		android:layout_below="@+id/code"
+		android:text="Verify"
+		android:textColor="#ffff"
+		android:onClick="verify"
+		android:padding="15dp"
+		android:visibility="gone"
+		tools:ignore="OnClick" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:id="@+id/msgtxt"
+		android:layout_centerInParent="true"
+		android:text="Signin Successfully"
+		android:padding="5dp"
+		android:textColor="#000000"
+		android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "641219176994",
+    "firebase_url": "https://kipande-cd652.firebaseio.com",
+    "project_id": "kipande-cd652",
+    "storage_bucket": "kipande-cd652.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641219176994:android:5610936c361ada37",
+        "android_client_info": {
+          "package_name": "com.kevin.kipande"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641219176994-3i6kivc47k1m5rfml97r471b9b98amgk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kevin.kipande",
+            "certificate_hash": "3bc72a71cfdb88b7d7a0a352d01113ceab1df9a3"
+          }
+        },
+        {
+          "client_id": "641219176994-j088hqvtrnovokaqecb9c556k1mg0hn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmj5Yi4MARJ598Hk2cJQUc7rZH_iddHHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641219176994-j088hqvtrnovokaqecb9c556k1mg0hn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
